@@ -1,13 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { AskComponent } from './ask/ask.component';
-import { CommentsComponent } from './comments/comments.component';
 import { ContentComponent } from './content/content.component';
-import { JobsComponent } from './jobs/jobs.component';
-import { NewComponent } from './new/new.component';
-import { PastComponent } from './past/past.component';
-import { ShowComponent } from './show/show.component';
 import { SubmitComponent } from './submit/submit.component';
 import { ThreadsComponent } from './threads/threads.component';
 
@@ -18,7 +12,7 @@ const routes: Routes = [
   },
   {
     path:"new",
-    component:NewComponent
+    component:ContentComponent
   },
   {
     path:"threads",
@@ -26,23 +20,23 @@ const routes: Routes = [
   },
   {
     path:"past",
-    component:PastComponent
+    component:ContentComponent
   },
   {
     path:"comments",
-    component:CommentsComponent
+    component:ContentComponent
   },
   {
     path:"ask",
-    component:AskComponent
+    component:ContentComponent
   },
   {
     path:"show",
-    component:ShowComponent
+    component:ContentComponent
   },
   {
     path:"jobs",
-    component:JobsComponent
+    component:ContentComponent
   },
   {
     path:"submit",

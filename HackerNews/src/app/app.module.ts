@@ -7,12 +7,6 @@ import { NavComponent } from './nav/nav.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ThreadsComponent } from './threads/threads.component';
 import { SubmitComponent } from './submit/submit.component';
-import { NewComponent } from './new/new.component';
-import { PastComponent } from './past/past.component';
-import { CommentsComponent } from './comments/comments.component';
-import { AskComponent } from './ask/ask.component';
-import { ShowComponent } from './show/show.component';
-import { JobsComponent } from './jobs/jobs.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +15,6 @@ import { JobsComponent } from './jobs/jobs.component';
     NavComponent,
     ThreadsComponent,
     SubmitComponent,
-    NewComponent,
-    PastComponent,
-    CommentsComponent,
-    AskComponent,
-    ShowComponent,
-    JobsComponent
   ],
   imports: [
     BrowserModule,
