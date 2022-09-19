@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.bg-orange{
+    background-color: tomato;
+}
+
+.bg-grey{
+    background-color: rgb(251, 251, 242);
+}
+.nav-link{
+    padding: 0px 5px 0px 5px;
+    color: black;
+}
+hr{
+    background-color:  tomato;
+    opacity: 100;
+    border-color: tomato;
+}
+a:visited{
+    color: black;
+}
