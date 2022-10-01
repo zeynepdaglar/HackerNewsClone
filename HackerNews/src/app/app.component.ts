@@ -8,6 +8,11 @@ import { Model } from './model';
 })
 export class AppComponent {
   title = 'HackerNews';
+  isSubmitOpen= false;
   constructor() {
+  }
+
+  onSubmitOpen(isOpen: boolean){
+    this.isSubmitOpen = isOpen;
   }
 }

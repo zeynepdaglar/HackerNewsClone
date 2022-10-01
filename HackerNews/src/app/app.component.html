@@ -7,8 +7,7 @@
       </div>
       <!-- nav -->
       <div class="col-sm-8" >
-        <app-nav></app-nav>
-        <!-- <app-nav *ngIf="hide==false"></app-nav> -->
+        <app-nav *ngIf="isSubmitOpen==false" (submitOpenEvent)="onSubmitOpen($event)"></app-nav>
         <!-- <div *ngIf="hide==true">Submit</div> -->
       </div>
       <div class="col-sm-2">Login</div>

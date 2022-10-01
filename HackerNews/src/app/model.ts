@@ -18,8 +18,6 @@ export class Model {
             {head:"a rule from Pixar with a camera from 1961", url: "github.com", points: 20, by:"Linda", time:"12 hours", comments:36},
             {head:"a rule from Pixar with a camera from 1961", url: "github.com", points: 20, by:"Linda", time:"12 minutes", comments:36},
         ];
-
      this.menu = [ "new", "threads", "past", "comments",  "ask", "show", "jobs"];
-        
     }
 }

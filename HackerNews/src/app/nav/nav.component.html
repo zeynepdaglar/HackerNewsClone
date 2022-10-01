@@ -2,5 +2,5 @@
   <li class="nav-item" *ngFor="let item of getNav();">
     <a class="nav-link active" aria-current="page" routerLink='{{item}}'>{{item}} |</a>
   </li>
-  <a class="nav-link active" aria-current="page" routerLink='submit' (click)="getHide()">submit</a>
+  <a class="nav-link active" aria-current="page" routerLink='submit' (click)="submitOpen(true)">submit</a>
 </ul>

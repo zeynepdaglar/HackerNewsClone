@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Model } from "../model";
 
 @Component({
@@ -18,9 +18,9 @@ export class NavComponent implements OnInit {
     return this.model.menu;
   }
 
-  getHide(){
-    this.model.hide = true;
-    console.log("hide: ",this.model.hide);
-    return this.model.hide;
-  } 
+  @Output() submitOpenEvent = new EventEmitter<boolean>();
+
+  submitOpen(value: boolean){
+    this.submitOpenEvent.emit(value);
+  }
 }
