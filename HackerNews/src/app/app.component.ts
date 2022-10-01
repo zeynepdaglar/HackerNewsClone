@@ -15,4 +15,5 @@ export class AppComponent {
   onSubmitOpen(isOpen: boolean){
     this.isSubmitOpen = isOpen;
   }
+
 }

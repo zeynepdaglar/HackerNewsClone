@@ -3,12 +3,11 @@
     <div class="row">
       <!-- Header -->
       <div class="col-sm-2">
-        <a href="" routerLink="home">Hacker News</a>
+        <a href="" routerLink="home" (click)="onSubmitOpen(false)">Hacker News</a>
       </div>
       <!-- nav -->
-      <div class="col-sm-8" >
+      <div class="col-sm-8">
         <app-nav *ngIf="isSubmitOpen==false" (submitOpenEvent)="onSubmitOpen($event)"></app-nav>
-        <!-- <div *ngIf="hide==true">Submit</div> -->
       </div>
       <div class="col-sm-2">Login</div>
     </div>
